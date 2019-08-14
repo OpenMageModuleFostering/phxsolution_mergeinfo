@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Phxsolution_Mergeinfo</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSLv3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Free module Merges Billing &amp; Shipping Information/Addresses at checkout for easiness of customer to fill up.</summary>
+    <description>Nowadays it seems that shorten the checkout process increases the interest of customers to be on site and reduces the no of chance to let customer go.&#xD;
+&#xD;
+This Free module merges two address steps of onepage checkout i.e.Billing Information &amp; Shipping Information in one step.</description>
+    <notes>Fixed minor bugs, compatible with Magento CE Version 1.8 &amp; 1.9</notes>
+    <authors><author><name>Prakash Vaniya</name><user>phxsolution</user><email>contact@phxsolution.com</email></author></authors>
+    <date>2014-12-04</date>
+    <time>13:10:22</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Phxsolution_Mergeinfo.xml" hash="401bdd38a9b952dc8ce39885d184632d"/></dir></target><target name="magecommunity"><dir name="Phxsolution"><dir name="Mergeinfo"><dir name="Block"><file name="Onepage.php" hash="91581ac861e7f90e3241bf79a2de8098"/></dir><dir name="Helper"><file name="Data.php" hash="73a0b85c28161c7548df0710fb1b541d"/></dir><dir name="controllers"><file name="OnepageController.php" hash="016f0e5e14ac43386e2557d2990a6fe8"/></dir><dir name="etc"><file name="config.xml" hash="c5ec71411b83c1d7f1971abde89040e2"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="mergeinfo.xml" hash="b85ed257c2fe720a30af37a5b39f29e3"/></dir><dir name="template"><dir name="mergeinfo"><dir name="checkout"><dir name="onepage"><dir name="progress"><file name="billing.phtml" hash="c12a051e270959e8bdcfc2fb3d53e22f"/><file name="payment.phtml" hash="39ef9e41120a567cbcfcdbd131e2263c"/><file name="shipping.phtml" hash="7df3a0cc95d6d92b6eacd31662b8cf1c"/><file name="shipping_method.phtml" hash="6126b7fd40c1040802898ff9b52b392c"/></dir><file name="progress.phtml" hash="b657f79cec43fc7d7314f94559213550"/></dir><file name="onepage.phtml" hash="058aee8a47bc9fd9701e273866b18ae8"/></dir><dir name="persistent"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="158dfcd72bc0606a9d1654e27c62245f"/></dir></dir></dir></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="layout"><file name="mergeinfo.xml" hash="b85ed257c2fe720a30af37a5b39f29e3"/></dir><dir name="template"><dir name="mergeinfo"><dir name="checkout"><dir name="onepage"><dir name="progress"><file name="billing.phtml" hash="c12a051e270959e8bdcfc2fb3d53e22f"/><file name="payment.phtml" hash="39ef9e41120a567cbcfcdbd131e2263c"/><file name="shipping.phtml" hash="7df3a0cc95d6d92b6eacd31662b8cf1c"/><file name="shipping_method.phtml" hash="6126b7fd40c1040802898ff9b52b392c"/></dir><file name="progress-bk-1.7.phtml" hash="cf6058202c8cdd97e40c88978fd74dd5"/><file name="progress.phtml" hash="b657f79cec43fc7d7314f94559213550"/></dir><file name="onepage.phtml" hash="058aee8a47bc9fd9701e273866b18ae8"/></dir><dir name="persistent"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="158dfcd72bc0606a9d1654e27c62245f"/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Phxsolution_Mergeinfo.csv" hash="03d616625d79d41243511eb3ad048464"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="js"><file name="mergeinfocheckout.js" hash="d7fbf7a3a7f941bac80bf48816071062"/></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="js"><file name="mergeinfocheckout.js" hash="d7fbf7a3a7f941bac80bf48816071062"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
