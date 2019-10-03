@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Phxsolution_Mergeinfo",
+    "name": "openmage-module-fostering\/phxsolution_mergeinfo",
     "type": "magento-module",
-    "license": "OSLv3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Free module Merges Billing & Shipping Information\/Addresses at checkout for easiness of customer to fill up.",
     "authors": [
